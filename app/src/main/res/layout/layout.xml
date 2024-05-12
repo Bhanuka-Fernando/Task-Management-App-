@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/border"
+            android:backgroundTint="#80C59B9B"
             android:orientation="vertical"
             android:padding="16dp">
 
@@ -24,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="200"
-                android:fontFamily="sans-serif"
+                android:fontFamily="sans-serif-smallcaps"
                 android:gravity="center|left"
                 android:text="@string/task_title"
                 android:textColor="@color/primary"

@@ -23,7 +23,7 @@
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
             android:text="@string/add_new_task"
-            android:textColor="@color/primary"
+            android:textColor="@color/white"
             android:textSize="45sp"
             android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="140dp"
             android:fontFamily="sans-serif"
             android:text="@string/enter_your_task_name"
             android:textColor="@color/black"
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="255dp"
+            android:layout_marginTop="275dp"
             android:fontFamily="sans-serif"
             android:text="Task Description : "
             android:textColor="@color/black"
