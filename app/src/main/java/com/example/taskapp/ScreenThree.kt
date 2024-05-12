@@ -11,7 +11,7 @@ class ScreenThree : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_screen_three)
         // Initialize btn
-        Start = findViewById(R.id.getstart)
+        Start = findViewById(R.id.btn_getStart)
         // Set OnClickListener for the button
         Start.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
