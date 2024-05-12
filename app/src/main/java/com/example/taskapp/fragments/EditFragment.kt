@@ -65,14 +65,14 @@ class EditFragment : Fragment(R.layout.fragment_edit) ,MenuProvider{
     }
     private fun deleteTask(){
         AlertDialog.Builder(activity).apply {
-            setTitle("Delete Task Details..!")
-            setMessage("You Want to delete Task Details..?")
-            setPositiveButton("Delete"){_,_ ->
+            setTitle("Delete Task ..")
+            setMessage("Are you sure want to delete your task ?")
+            setPositiveButton("Yes"){_,_ ->
                 taskViewModel.deleteTask(currentTask)
                 Toast.makeText(context,"Task Deleted",Toast.LENGTH_SHORT).show()
                 view?.findNavController()?.popBackStack(R.id.homeFragment,false)
             }
-            setNegativeButton("Cancel",null)
+            setNegativeButton("No",null)
         }.create().show()
     }
 

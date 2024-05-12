@@ -7,67 +7,77 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFDADA"
         android:orientation="vertical"
-        tools:context=".NewNoteFragment"
-        android:padding="12dp">
+        android:padding="12dp"
+        tools:context=".NewNoteFragment">
 
         <TextView
             android:id="@+id/addNoteHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="22dp"
-            android:fontFamily="sans-serif"
-            android:text="@string/add_new_task"
+            android:layout_marginTop="20dp"
+            android:height="70dp"
+            android:background="#ABABAB"
+            android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
-            android:textStyle="bold"
+            android:text="@string/add_new_task"
             android:textColor="@color/primary"
-            android:textSize="35sp" />
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
         <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="82dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="sans-serif"
             android:text="@string/enter_your_task_name"
-            android:textStyle="bold"
             android:textColor="@color/black"
-            android:textSize="23sp" />
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
         <EditText
             android:id="@+id/addNoteTitle"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:layout_below="@id/addNoteHeading"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="95dp"
             android:background="@drawable/border"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:hint="@string/enter_the_task_titile"
             android:maxLines="1"
-            android:padding="12dp"
-            android:textSize="20sp" />
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="#585443"
+            android:textSize="17sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="255dp"
             android:fontFamily="sans-serif"
-            android:text="Enter Your Task Description"
-            android:textStyle="bold"
+            android:text="Task Description : "
             android:textColor="@color/black"
-            android:textSize="23sp" />
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
         <EditText
             android:id="@+id/addNoteDesc"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="140dp"
             android:layout_below="@id/addNoteTitle"
-            android:layout_marginTop="62dp"
+            android:layout_marginTop="85dp"
             android:background="@drawable/border"
-            android:fontFamily="sans-serif"
+            android:fontFamily="sans-serif-light"
             android:gravity="top"
             android:hint="@string/enter_the_task_description"
-            android:padding="12dp"
-            android:textSize="18sp" />
-
+            android:padding="20dp"
+            android:textColorHint="#585443"
+            android:textSize="17sp" />
 
 
     </RelativeLayout>
